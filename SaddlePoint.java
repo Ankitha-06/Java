@@ -27,7 +27,7 @@ public class SaddlePoint {
             boolean larCol=true;
             for(int k=0;k<rows;k++){
                 if(a[k][col]>smallest){
-                    larCol=true;
+                    larCol=false;
                     break;
                 } 
             }
